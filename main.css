@@ -1,0 +1,98 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.theme-color {
+    background-color: #1877f2;
+}
+
+.theme-color-font {
+    color: #1877f2;
+}
+
+.text-colored-white {
+    color: #fff;
+}
+
+.background-grey {
+    background-color: rgb(235, 234, 234);      
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.background-black {
+    background-color: black;  
+}
+
+.nav-link span {
+    display: none;
+}
+
+.nav .nav-link.active{
+    background-color: #fff;
+}
+
+.nav .nav-link.active span,
+.nav .nav-link.active i {
+    display: inline-block;
+    color: #1877f2;
+}
+
+.nav .nav-link i.bi {
+    font-size: 25px;
+}
+
+#profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 180px;
+}
+
+.active {
+    max-width: auto;
+    margin: none;
+}
+
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    /*background: rgb(235, 234, 234);;*/
+    background-color: #1877f2;; 
+}
+
+/*.accordion-button::after {
+    margin-left: 30px;
+}*/
+
+.sub-title {
+    width: fit-content;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+}
+
+@media screen and (min-width: 991px) {
+
+    #profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .nav .nav-link span {
+    display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .link-repositorio {
+        font-size: 14px;
+    }
+}

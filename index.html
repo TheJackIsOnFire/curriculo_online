@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3 theme-color" id="menu">
+        <div class="container-fluid">
+            <h1 class="text-colored-white fw-bold fs-4 m-0">Curriculo Online</h1>   
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navigation-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start theme-color w-auto" data-bs-scroll="true" tabindex="-1" id="navigation-menu">
+                <div class="offcanvas-header justify-content-end mb-2">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body py-0">
+                    <div class="navbar-collapse justify-content-end">
+                        <ul class="nav nav-pills d-inline-block d-lg-flex ">
+                            <li class="nav-item mb-2 mb-lg-0 mx-lg-2">
+                                <a href="#personal-profile" class="nav-link active py-1"> 
+                                    <i class="bi bi-person-circle text-colored-white me-1"></i>
+                                    <span class="fw-bold text-colored-white">Perfil Pessoal</span>                            
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2 mb-lg-0 mx-lg-3">
+                                <a href="#professional-profile" class="nav-link active py-1"> 
+                                    <i class="bi bi-person-workspace text-colored-white me-1"></i>
+                                    <span class="fw-bold text-colored-white">Perfil Profissional</span>                            
+                                </a>
+                            </li>                            
+                            <li class="nav-item mb-2 mb-lg-0 mx-lg-3">
+                                <a href="#professional-experience" class="nav-link py-1"> 
+                                    <i class="bi bi-person-vcard text-colored-white me-1"></i>
+                                    <span class="fw-bold text-colored-white">Experiência Profissional</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2 mb-lg-0 mx-lg-3">
+                                <a href="#formations" class="nav-link py-1"> 
+                                    <i class="bi bi-mortarboard text-colored-white me-1"></i>
+                                    <span class="fw-bold text-colored-white">Formações</span>                            
+                                </a>
+                            </li>                            
+                            <li class="nav-item mb-2 mb-lg-0 mx-lg-3">
+                                <a href="#key-skills" class="nav-link py-1"> 
+                                    <i class="bi bi-magic text-colored-white me-1"></i>
+                                    <span class="fw-bold text-colored-white">Competências</span>                           
+                                </a>
+                            </li>
+                            <li class="nav-item mb-2 mb-lg-0 mx-lg-3">
+                                <a href="#contact" class="nav-link py-1"> 
+                                    <i class="bi bi-chat-dots text-colored-white me-1"></i>
+                                    <span class="fw-bold text-colored-white">Entre em contato</span>                            
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#menu" data-bs-smooth-scroll="true" id="accordion-toggler">
+        <section id="personal-profile">
+            <div class="container px-2 px-md-0 px-lg-0">          
+                <div class="row my-3 mx-2 mx-md-0 mx-lg-0 background-grey rounded-2">                    
+                    <div class="col-12 px-3 px-md-4 px-lg-4 my-2">
+                        <h1 class="fs-4 fw-bold my-3 ">Alexsander Wallace da Silva Andrade</h1>
+                        <div>
+                            <p>
+                                <i class="bi bi-mortarboard-fill me-2"></i>
+                                <span class="">Graduando em Administração pela Uniube</span>
+                            </p>
+                            <p>
+                                <i class="bi bi-mortarboard-fill me-2"></i>
+                                <span class="">Cusando Desenvolvedor Full Stack Python pela EBAC</span>
+                            </p>
+                            <p>
+                                <i class="bi bi-envelope-at-fill me-2"></i>
+                                <span class="">alexsandersvm@gmail.com</span>
+                            </p>
+                            <p>
+                                <i class="bi bi-house-fill me-2"></i>
+                                <span class="">R. Major Domingos 26, Cidade Nova, São Vicente de Minas, Cep 37370-000</span>
+                            </p>
+                            <p>
+                                <i class="bi bi-telephone-fill me-2"></i>
+                                <span class="">(35) 9 9872-6945</span>
+                            </p> 
+                            <p><i class="bi bi-hand-index-fill me-2"></i>
+                                <span>Repositório de projetos: </span>
+                                <a class="link link-repositorio">https://github.com/TheJackIsOnFire/Curso_Front_End_EBAC.git <a>
+                            </p>
+                        </div>                             
+                    </div>                                                             
+                </div>                                                         
+            </div>
+        </section>
+        <section id="professional-profile">
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-12 px-3 px-md-0 px-lg-0 my-2">
+                        <div class="accordion p-0" id="accordion-profile">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header text-center">
+                                <button class="accordion-button p-2 theme-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion">
+                                  <h2 class="fw-bold fs-4 m-0 text-light mx-3">Perfil Profissional</h2>
+                                </button>
+                              </h2>
+                              <div id="collapse-accordion" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                  <p>
+                                    Sou um profissional comprometido com o contínuo auto desenvolvimento, sempre buscando aprimorar minhas habilidades e conhecimentos. Minha abordagem proativa diante dos desafios reflete meu compromisso em encontrar soluções inovadoras para problemas complexos. Com uma sólida base em tecnologia, sou capaz de utilizar ferramentas avançadas para otimizar processos e alcançar resultados superiores.
+    
+                                    Assim como disse o filósofo Sêneca: "Não é porque as coisas são difíceis que nós não ousamos, é porque nós não ousamos que elas são difíceis." Essa citação ressoa comigo, incentivando-me a abraçar o desconhecido com determinação e coragem.
+    
+                                    <br><br>Minha capacidade de controle e monitoramento do desempenho me permite tomar decisões informadas, ajustando estratégias conforme necessário para garantir o sucesso. Busco sempre encontrar o equilíbrio entre a eficiência e a excelência, visando não apenas cumprir, mas superar expectativas.
+    
+                                    <br><br>Estou em busca de uma oportunidade onde possa aplicar minha expertise em tecnologia, aliada à minha pro atividade e habilidade de auto desenvolvimento, para contribuir de forma significativa e atingir resultados excepcionais.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="professional-experience">
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-12 px-3 px-md-0 px-lg-0 my-2">
+                        <div class="accordion p-0" id="accordion-experience">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button p-2 theme-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion-1">
+                                  <h2 class="fw-bold fs-4 m-0 text-light mx-3">Experiência Profissional</h2>
+                                </button>
+                              </h2>
+                              <div id="collapse-accordion-1" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                  <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="sub-title bg-dark text-light mt-2">SANDUBÃO - SÃO VICENTE DE MINAS</h3>
+                                        <p>
+                                            Sócio Administrador e Gestor <br>
+                                            Início em 06 de março de 2021. <br>
+                                            Termino em 05 de maio de 2022. <br>
+                                            <br><span class="fw-bold">Principais atividades: </span><br>
+                                            Gestão e treinamento colaboradores, atendimento ao público, gestão financeira, controle de estoque, controle de qualidade, criação e desenvolvimento de novos produtos. 
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="sub-title bg-dark text-light mt-2">HARDCORE FITNESS ACADEMIA – SÃO VICENTE DE MINAS</h3>
+                                        <p>
+                                            Estagiário/instrutor físico e recepcionista <br>
+                                            Início em janeiro de 2021. <br>
+                                            <br><span class="fw-bold">Principais atividades: </span><br>
+                                            Registro de alunos, recepção ao público, acompanhamento e suporte na realização das fichas de treino e execução dos exercícios propostos.   
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="formations">
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-12 px-3 px-md-0 px-lg-0 my-2">
+                        <div class="accordion p-0" id="accordion-formations">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button p-2 theme-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion-2">
+                                  <h2 class="fw-bold fs-4 m-0 text-light mx-3">Formações</h2>
+                                </button>
+                              </h2>
+                              <div id="collapse-accordion-2" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                  <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="sub-title bg-dark text-light my-3">GRADUAÇÕES</h3>
+                                        <p>
+                                            <span class="fw-bold">Ensino Médio</span> <br>
+                                            Concluído em 2016 <br>
+                                            Escola Estadual José Bonifácio - São Vicente de Minas
+                                        </p>
+                                        <p>
+                                            <span class="fw-bold">Bacharelado em Administração</span> <br>
+                                            Início em 2019 - Centro Universitário de Lavras. <br>
+                                            Transferência realizada em 2023 para Universidade de Uberaba.
+                                        </p>                                        
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="sub-title bg-dark text-light my-3">CURSOS E INFORMAÇÕES ADICIONAIS</h3>
+                                        <p>
+                                            <span class="fw-bold">Desenvolvedor Full Stack Python</span> <br>
+                                            Início em 2022 - Escola Britânica de Artes Criativas e Tecnologia.
+                                        </p>
+                                        <p>  Curso de matemática financeira com o uso da HP 12C pela Fundação Bradesco; <br>                                     
+                                            <br> Curso de Fundamentos de Lógica de Programação pela Fundação Bradesco; <br>
+                                            <br> Curso de Back Office pelo Portal da Educação; <br>
+                                            <br>Conhecimento em Word e Excel; <br>
+                                        </p>
+                                    </div>                                    
+                                  </div>
+                                </div>
+                              </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <section id="key-skills">
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-12 px-3 px-md-0 px-lg-0 my-2">
+                        <div class="accordion p-0" id="accordion-key-skills">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button p-2 theme-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion-3">
+                                  <h2 class="fw-bold fs-4 m-0 text-light mx-3">Competências</h2>
+                                </button>
+                              </h2>
+                              <div id="collapse-accordion-3" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                  <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="sub-title bg-dark text-light my-3">HABILIDADES TÉCNICAS</h3>
+                                        <p>
+                                            <span>Front End</span> <br>
+                                            <span>Desenvolvimento Web</span>
+                                            <span>Logica de Programação</span> <br>
+                                            <span>Marketing</span> <br>
+                                            <span>Gestão Estratégica</span> <br>
+                                            <span>Gestão de Pessoas</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <h3 class="sub-title bg-dark text-light my-3">TECNOLOGIAS</h3>
+                                        <p>
+                                            <span>HTML</span> <br>
+                                            <span>CSS</span> <br>
+                                            <span>Python</span> <br>
+                                            <span>JavaScript</span> <br>
+                                            <span>Bootstrap</span> <br>
+                                            <span>jQuery</span> <br>
+                                            <span>Excel</span> <br>
+                                            <span>Word</span> <br>
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container my-4">
+                <div class="row mb-4">
+                    <div class="col-12 px-3 px-md-0 px-lg-0 my-2">
+                        <div class="accordion p-0" id="accordion-references">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button p-2 theme-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-accordion-5">
+                                  <h2 class="fw-bold fs-4 m-0 text-light mx-3">Entre em Contato</h2>
+                                </button>
+                              </h2>
+                              <div id="collapse-accordion-5" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <form class="row py-2 px-1 px-md-3 px-lg-3">
+                                        <div class="mb-3 col-12 col-lg-6">
+                                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                            <input type="text" id="nome" name="nome" class="form-control" placeholder="Ex: Alexsander Wallace..." required>
+                                        </div>
+                                        <div class="mb-3 col-12 col-lg-6">
+                                            <label for="email" class="form-label fw-bold text-colored">Seu E-mail</label>
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="exemplo@gmail.com" required>
+                                        </div>
+                                        <div class="mb-3 col-12 col-lg-6">
+                                            <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone (opiocional)</label>
+                                            <input type="tel" id="telefone" name="telefone" class="form-control">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row align-items-end">
+                                                <div class="mb-3 col-12 col-lg-6">
+                                                    <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                                    <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Informe o motivo do contato." required></textarea>
+                                                </div>
+                                                <div class="mb-3 col-12 col-lg-6">
+                                                    <button type="submit" class="w-auto btn btn-primary fw-bold">Enviar</button>
+                                                </div> 
+                                            </div>
+                                        </div>                                                                               
+                                    </form>
+                                </div>
+                              </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./Plugins/jquery.mask.min.js"></script>
+    <script src="./Plugins/jquery.validate.min.js"></script>
+    <script src="./Plugins/messages_pt_BR.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#telefone').mask('(00) 00000-0000', {
+                placeholder: '(DDD) 90000-0000'
+            });
+
+            $('form').validate({
+                rule: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    mensagem: {
+                        required: true
+                    }
+                    
+                },
+                messages: {
+                    nome: 'Por favor, insira seu nome completo.',
+                    email: 'Por favor, insira seu e-mail de contato.',
+                    mensagem: 'Informe o motivo do contato.',
+                }    
+
+            })
+        })
+    </script>
+</body>
+</html>
